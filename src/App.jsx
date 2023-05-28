@@ -8,12 +8,13 @@ import Videos from './components/videos/Index.jsx';
 import Websites from './components/websites/Index.jsx';
 import Challenges from './components/challenges/Index.jsx';
 import { BsGithub } from "react-icons/bs";
+import Navbar from './components/nav/Navbar.jsx';
 
 
 const App = () => {
   return (
     <div className="flex">
-      <Nav />
+      <Navbar />
       <div className="mx-20">
         <Routes location={location} key={location.key}>
           {/* Home */}
