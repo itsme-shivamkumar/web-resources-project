@@ -5,7 +5,7 @@ const Card = ({ title, link, description, i, img }) => {
   return (
     <a href={link} target={'_blank'} rel="noreferrer">
       <motion.div
-        className="card border-b-2 bg-[#eebefa] border-b-[#2a1600] flex flex-col rounded-lg  gap-4 p-4 shadow-3xl h-[16rem] w-[24rem] hover:shadow-4xl "
+        className="card border-b-2 bg-[#eebefa] border-b-[#2a1600] flex flex-col rounded-lg  gap-4 p-4 shadow-3xl h-[16rem] w-[22rem] hover:shadow-4xl "
         key={i}
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
